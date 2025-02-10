@@ -65,12 +65,12 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-30 text-[#D90429] bg-white flex justify-between items-center px-6 py-4 text-xl">
+      <div className="sticky top-0 z-50 text-[#D90429] bg-white flex justify-between items-center px-6 py-4 text-xl shadow-md">
         <div className="flex items-center space-x-4 cursor-default">
           <div className="rounded-full overflow-hidden w-16 h-16">
             <img src={logo} alt="Logo" className="object-cover w-full h-full" />
           </div>
-          <h1 className="text-xl font-serif font-extrabold">CarFix Pro </h1>
+          <h1 className="text-xl font-serif font-extrabold">CarFix Pro</h1>
         </div>
 
         <div className="hidden sm:flex absolute left-1/2 transform -translate-x-1/2 gap-6 text-xl cursor-pointer font-semibold">
@@ -247,7 +247,7 @@ const NavBar = () => {
           </div>
         )}
       </div>
-      <div className="bg-black sticky top-[70px] z-40 text-white hidden sm:flex px-6 md:px-32 py-3 items-center justify-between text-center">
+      <div className="sticky top-[100px] z-40 bg-black text-white hidden sm:flex px-6 md:px-32 py-4 items-center justify-between text-center shadow-md">
         <div className="flex items-center gap-2">
           <FaPhoneAlt className="text-red-500" />
           <p>033-567-8901</p>
